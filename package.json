@@ -1,0 +1,14 @@
+{
+  "name": "utils-mcp-proxy",
+  "version": "1.0.0",
+  "description": "Utility MCP server exposing a hosted toolbox — UUID/ULID generation, CSV/JSON conversion, hashing, and an AI-slop text detector — as local MCP tools. Free tier, no API key required.",
+  "main": "index.js",
+  "bin": { "utils-mcp-proxy": "index.js" },
+  "scripts": { "start": "node index.js" },
+  "keywords": ["mcp", "mcp-server", "utilities", "csv", "json", "uuid", "hash", "ai-slop"],
+  "engines": { "node": ">=18" },
+  "license": "MIT",
+  "repository": { "type": "git", "url": "https://github.com/wminno/utils-mcp-proxy" },
+  "bugs": { "url": "https://github.com/wminno/utils-mcp-proxy/issues" },
+  "homepage": "https://utils.bigfloppy.net"
+}
